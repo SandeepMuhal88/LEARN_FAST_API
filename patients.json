@@ -46,5 +46,25 @@
 "weight": 75, 
 "bmi": 31.22, 
 "verdict": "Obese"
+},
+"P006": {
+"name": "Deepak Sinha", 
+"city": "Lucknow", 
+"age": 30, 
+"gender": "male", 
+"height": 1.75, 
+"weight": 85, 
+"bmi": 27.76, 
+"verdict": "Overweight"
+},
+"P007": {
+"name": "Sandeep Kumar", 
+"city": "Jaipur", 
+"age": 30, 
+"gender": "male", 
+"height": 1.85, 
+"weight": 85, 
+"bmi": 24.76, 
+"verdict": "Normal"
 }
 }
