@@ -38,4 +38,4 @@ def view_patient_id(patient_id:str=Path(...,description="Patient ID",example="P0
         return data[patient_id]
     else:
         return {'Error':'Patient not found'}
-
+    
