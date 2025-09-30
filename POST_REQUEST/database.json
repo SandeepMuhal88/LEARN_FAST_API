@@ -1,0 +1,29 @@
+{
+  "id01":{
+    "productId": "C7L-11M",
+    "productName": "Smart Fitness Tracker",
+    "category": "Wearables",
+    "brand": "FitCore",
+    "price": 3499.00,
+    "inStock": true,
+    "tags": ["health", "fitness", "waterproof"]
+  },
+  "id02":{
+    "productId": "F2P-54V",
+    "productName": "Espresso Coffee Machine",
+    "category": "Home Appliances",
+    "brand": "BrewMaster",
+    "price": 12500.00,
+    "inStock": false,
+    "tags": ["coffee", "kitchen", "morning"]
+  },
+  "id03":{
+    "productId": "K9Z-30Q",
+    "productName": "Mechanical Gaming Keyboard",
+    "category": "Computer Accessories",
+    "brand": "MechKeys",
+    "price": 6200.00,
+    "inStock": true,
+    "tags": ["gaming", "rgb", "mechanical", "pc"]
+  }
+}
