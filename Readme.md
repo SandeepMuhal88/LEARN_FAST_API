@@ -126,26 +126,4 @@ deactivate
 A simple REST API for managing a to-do list, built with FastAPI.
 
 ---
-
-## Features ✨
-
-- **Fast**: Built on Starlette and Pydantic for high performance.
-- **Automatic Docs**: Interactive API documentation (Swagger UI and ReDoc).
-- **Modern Python**: Fully typed with Python 3.8+ type hints.
-- **Easy to Use**: Intuitive and simple to start with.
-
----
-
-## ⚙️ Setup and Installation
-
-### Prerequisites
-
-- **Python 3.8+**
-- **pip**
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/your-project-name.git
-cd your-project-name
 ```
