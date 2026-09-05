@@ -111,19 +111,31 @@ FastAPI provides interactive docs:
 
 ---
 
-### 8. Deactivate the Virtual Environment
-
-When finished, deactivate with:
-
-```bash
-deactivate
-```
-
----
-
-## My Awesome FastAPI Project 🚀
-
 A simple REST API for managing a to-do list, built with FastAPI.
 
 ---
+
 ```
+from fastapi import FastAPI
+
+app = FastAPI(
+    title="My FastAPI API",
+    description="Backend API built with FastAPI",
+    version="1.0.0",
+)
+
+
+@app.get("/")
+async def root():
+    return {
+        "message": "FastAPI is running!"
+    }
+
+
+@app.get("/health")
+async def health_check():
+    return {
+        "status": "healthy"
+    }
+```
+
